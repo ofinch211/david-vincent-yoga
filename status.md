@@ -1,11 +1,12 @@
-# 13-11-2026 — GitHub repository and Pages preview in preparation
+# 13-11-2026 — Repository saved; GitHub Pages preview live
 
+- **08:13** — Created and pushed the approved public repository: https://github.com/ofinch211/david-vincent-yoga . The local project is now a Git repository with origin tracking the main branch. Full Flask source, templates, assets, tests, configuration examples and the Pages exporter are stored; runtime databases, secrets and private exports are excluded.
+- **08:13** — Published the single external design preview at https://ofinch211.github.io/david-vincent-yoga/ from main → /docs, with HTTPS enforced. GitHub’s build and deploy jobs succeeded. Verified all nine live pages plus the core images, fonts, styles and scripts over HTTPS. This link works independently of the Mac being on.
+- **08:13** — The hosted preview uses direct email/telephone enquiries, with no form submission database or payment collection; the complete validated Flask form remains in the source for local/future server hosting. Published a preview-specific privacy notice and retained day/dark modes, all colour palettes, the dv. monogram and approved indoor/outdoor images. Ten tests pass. Class arrangements, final price inclusions, booking terms, notification delivery and the permanent business launch remain pending as previously agreed.
 - **08:04** — Owner confirmed GitHub account ofinch211 and approved a public repository plus one GitHub Pages preview. Initialised the local repository. Prepared all nine pages for the repository subpath, including local fonts/images and retained appearance settings. The full Flask application remains available locally; the static Pages contact page uses direct email/telephone enquiries and does not collect submissions.
 - **08:04** — Ten tests pass, covering the original application plus exported preview links, fonts, canonical URLs, omission of form tokens and omission of private databases. Expanded .gitignore to exclude runtime records, credentials and private exports. Awaiting one-time GitHub CLI authorization before creating/pushing the remote repository and enabling Pages. No hosted URL is verified live yet.
 
-## Earlier build history
-
-# 11-11-2026 — Local design approved; launch details pending
+## 11-11-2026 — Local design approved; launch details pending
 
 - **08:58** — Project owner approved the current website design, including day/dark mode and colour-theme settings. Local preview is ready for review with David. Previously listed class arrangements, final price inclusions, booking/payment terms, email notification setup and public hosting details remain pending; no public launch has taken place.
 - **08:54** — Added header day/dark toggle and keyboard-accessible appearance settings with five palettes: original Forest & Ivory, Coastal Blue, Warm Terracotta, Soft Lavender, and Olive & Sand. Each has a coordinated dark version, including forms, section backgrounds, buttons and the retained dv. monogram. Original day mode remains the default.
