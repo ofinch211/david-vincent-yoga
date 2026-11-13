@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ofinch211.github.io/david-vincent-yoga/sitemap.xml

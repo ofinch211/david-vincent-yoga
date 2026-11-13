@@ -1,0 +1,73 @@
+{
+  "name": "David Vincent",
+  "tagline": "Ashtanga & Dharma Yoga",
+  "email": "dlvincent@hotmail.co.uk",
+  "phone": "07956 167 856",
+  "location": "In and around Sanderstead, South Croydon",
+  "instagram": "",
+  "portrait": "",
+  "bio": "David began practising yoga in April 2022. What started as an interest became a lasting passion for movement, breath and the philosophy behind the practice. Alongside his career in investment banking, he is developing an independent teaching practice centred on personal attention and consistent, thoughtful learning.",
+  "classes": [
+    {
+      "id": "private",
+      "number": "01",
+      "title": "One-to-one practice",
+      "description": "Space to focus on you. A personal session shaped around your experience, interests and the practice you want to build.",
+      "duration": "Duration agreed on enquiry",
+      "level": "All levels, subject to suitability",
+      "price": "From £40 per session",
+      "tag": "PERSONAL ATTENTION"
+    },
+    {
+      "id": "group",
+      "number": "02",
+      "title": "Small-group practice",
+      "description": "Practise together in a welcoming, intimate setting, with room for individual guidance and shared encouragement.",
+      "duration": "Duration agreed on enquiry",
+      "level": "Friends & small groups",
+      "price": "Approximately £30 per person",
+      "tag": "GROW TOGETHER"
+    },
+    {
+      "id": "ashtanga",
+      "number": "03",
+      "title": "Ashtanga Yoga",
+      "description": "Explore a progressive sequence of postures, connecting a steady breath with purposeful movement.",
+      "duration": "Duration agreed on enquiry",
+      "level": "Tailored to your experience",
+      "price": "Private or small-group rates",
+      "tag": "BREATH & MOVEMENT"
+    },
+    {
+      "id": "dharma",
+      "number": "04",
+      "title": "Dharma Yoga",
+      "description": "An exploration of posture, breathing, concentration and meditation, informed by the holistic Dharma Yoga approach.",
+      "duration": "Duration agreed on enquiry",
+      "level": "Tailored to your experience",
+      "price": "Private or small-group rates",
+      "tag": "A HOLISTIC APPROACH"
+    },
+    {
+      "id": "beginner",
+      "number": "05",
+      "title": "Your first practice",
+      "description": "An unhurried introduction. Get comfortable with the fundamentals, ask questions and find a starting point that suits you.",
+      "duration": "Duration agreed on enquiry",
+      "level": "Beginners welcome",
+      "price": "Private or small-group rates",
+      "tag": "BEGIN WHERE YOU ARE"
+    }
+  ],
+  "venue_note": "The exact hall or studio will be confirmed before your session.",
+  "qualification": "David holds a recognised yoga teaching certification from The Yoga People.",
+  "training_school": "The Yoga People",
+  "training_school_url": "https://www.theyogapeople.com/",
+  "training_school_registration": "a Yoga Alliance Registered Yoga School",
+  "pricing": {
+    "private": "From £40 per session",
+    "group": "Approximately £30 per person",
+    "summary": "Private sessions start from £40. Small-group sessions are approximately £30 per person. Final prices, duration and availability are confirmed when you enquire."
+  },
+  "phone_link": "+447956167856"
+}

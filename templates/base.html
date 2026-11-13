@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} | David Vincent Yoga</title>
+  {% if static_preview %}<meta name="robots" content="noindex, nofollow">{% endif %}
+  <meta name="description" content="{{ description }}">
+  <link rel="canonical" href="{{ config.SITE_URL }}{{ '/' if page == 'home' else '/' + page }}">
+  <meta property="og:title" content="{{ title }} | David Vincent Yoga"><meta property="og:description" content="{{ description }}"><meta property="og:type" content="website"><meta property="og:url" content="{{ config.SITE_URL }}{{ '/' if page == 'home' else '/' + page }}"><meta property="og:image" content="{{ config.SITE_URL }}/static/images/practice.jpg?v=uk-park-2">
+  <meta name="theme-color" content="#35463B"><link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+  <script src="/static/appearance.js"></script>
+  <link rel="stylesheet" href="/static/style.css"><script defer src="/static/site.js"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="/" aria-label="David Vincent Yoga home"><span class="brand-symbol" aria-hidden="true">✳</span><span>DAVID VINCENT<small>Y O G A &nbsp; & &nbsp; A W A R E N E S S</small></span></a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+  <nav id="navigation" aria-label="Main navigation">
+    {% for slug, label in [('home','Home'),('history','Yoga’s roots'),('ashtanga','Ashtanga'),('dharma','Dharma'),('about','About David'),('classes','Classes'),('contact','Contact')] %}
+    <a href="{{ '/' if slug == 'home' else '/' + slug }}" {% if page == slug %}aria-current="page"{% endif %}>{{ label }}</a>
+    {% endfor %}
+  </nav>
+  <div class="appearance-controls">
+    <button hidden class="icon-control appearance-control" id="mode-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.3 14.1A8.7 8.7 0 0 1 9.9 3.7a8.7 8.7 0 1 0 10.4 10.4Z"/></svg><svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button>
+    <button hidden class="icon-control appearance-control" id="settings-toggle" type="button" aria-label="Appearance settings" aria-haspopup="dialog" aria-controls="appearance-settings" title="Appearance settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3"/><circle cx="15" cy="17" r="3"/></svg></button>
+  </div>
+  <a class="button header-cta" href="/contact">Book a session <span aria-hidden="true">↗</span></a>
+</header>
+{% include 'appearance.html' %}
+<main id="main">{% block content %}{% endblock %}</main>
+{% if page not in ['contact', 'privacy', 'terms'] %}
+<section class="closing"><span class="eyebrow light">MAKE SPACE FOR YOURSELF</span><h2>Your journey begins<br>with a single breath.</h2><a class="button cream" href="/contact">Start your practice <span aria-hidden="true">↗</span></a><div class="closing-art" aria-hidden="true">◯</div></section>
+{% endif %}
+<footer class="site-footer"><div class="footer-top"><a class="brand" href="/"><span class="brand-symbol" aria-hidden="true">✳</span><span>DAVID VINCENT<small>Y O G A &nbsp; & &nbsp; A W A R E N E S S</small></span></a><p>Movement with intention.<br>A practice for life.</p><div><a href="/classes">Explore classes ↗</a><a href="/contact">Get in touch ↗</a>{% if site.instagram %}<a href="{{ site.instagram }}" rel="noopener">Instagram ↗</a>{% endif %}</div></div><div class="footer-bottom"><span>© {{ year }} David Vincent Yoga</span><span>Rooted in tradition. Made personal.</span><span><a href="/terms">Terms & conditions</a> · <a href="/privacy">Privacy & cookies</a></span></div></footer>
+</body></html>

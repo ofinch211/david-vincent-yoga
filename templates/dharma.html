@@ -1,0 +1,14 @@
+{% set practice = {
+'name': 'Dharma Yoga', 'eyebrow':'DHARMA YOGA', 'heading':'Move with intention.', 'italic':'Explore within.',
+'intro':'An integrated approach to yoga: physical practice, breathing and meditation, with space to reflect on the way we live.',
+'image':'stillness.jpg', 'alt':'Illustration of a mostly female yoga class with an anonymous male teacher in a modest British hall',
+'origin_label':'THE APPROACH OF SRI DHARMA MITTRA', 'origin_heading':'A holistic<br><em>exploration.</em>',
+'origin':['Dharma Yoga was developed by Sri Dharma Mittra, drawing on classical Hatha and Raja Yoga. It brings physical postures together with breath practices, concentration, meditation and ethical principles.', 'Its purpose extends beyond a physical sequence. Compassion, devotion and self-awareness inform a practice concerned with the relationship between body, mind and spirit.'],
+'elements_heading':'An invitation<br><em>to connect.</em>',
+'elements': [('Asana','Postures explore strength, flexibility, balance and coordination. The physical practice is one aspect of a wider approach.'),('Pranayama','Breathing practices invite attention to the breath and are introduced at a suitable level.'),('Meditation','Concentration, quiet sitting and relaxation offer ways to explore awareness beyond movement.'),('Ethics & devotion','Compassion, self-study and devotion connect time on the mat with choices in everyday life.')],
+'benefit_intro':'A way to explore physical practice and the wider philosophy of yoga together.',
+'benefits':['Develop strength, flexibility, balance and coordination','Explore breathing and meditation','Cultivate concentration and self-awareness','Deepen your understanding of yoga philosophy'],
+'cta':'Explore Dharma Yoga with David.', 'source_intro':'Learn about Sri Dharma Mittra and his approach at the', 'source_url':'https://www.dharmayogacenter.com/', 'source_name':'Dharma Yoga Center'
+} %}
+{% extends 'practice.html' %}
+{% block practice_extra %}<section class="section comparison"><span class="eyebrow">TWO DISTINCT APPROACHES</span><h2>A shared curiosity.<br><em>Different ways to explore.</em></h2><div class="table-wrap"><table><caption>Ashtanga Vinyasa and Dharma Yoga at a glance</caption><thead><tr><th scope="col">In practice</th><th scope="col">Ashtanga Vinyasa</th><th scope="col">Dharma Yoga</th></tr></thead><tbody><tr><th scope="row">Structure</th><td>Progressive, established series of postures.</td><td>A holistic approach with flowing sequences, held postures and other practices.</td></tr><tr><th scope="row">Emphasis</th><td>Breath and movement, gaze and consistency.</td><td>Posture, breath, meditation, ethics and devotion.</td></tr><tr><th scope="row">Common ground</th><td colspan="2">Attention, regular practice and an interest in yoga beyond physical exercise.</td></tr></tbody></table></div></section>{% endblock %}
